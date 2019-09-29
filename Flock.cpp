@@ -8,11 +8,18 @@
 #include <string>
 
 
-
 int height;
 int width;
 Boid** flock = nullptr;
 int boidAmount;
+
+
+int SEP_DISTANCE = 20;
+int ALI_DISTANCE = 50;
+int COH_DISTANCE = 100;
+float SEP_FORCE = 1.7;
+float ALI_FORCE = 1;
+float COH_FORCE = 1;
 
 float rand_range(int lower, int upper) {
     return lower + rand()%(upper - lower);

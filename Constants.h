@@ -1,12 +1,6 @@
 #ifndef CONSTANTS_H
 #define CONSTANTS_H
 
-const int SEP_DISTANCE = 20;
-const int ALI_DISTANCE = 50;
-const int COH_DISTANCE = 100;
-const float SEP_FORCE = 1.7;
-const float ALI_FORCE = 1;
-const float COH_FORCE = 1;
 
 const float MAX_VELOCITY = 2.0;
 const float MAX_ACCELERATION = 0.03;
