@@ -16,4 +16,4 @@ main.o: main.cpp
 	g++ -o main.o -c main.cpp -std=c++11 -O3
 
 clean:
-	rm -f *o core
+	rm -f *.o core
